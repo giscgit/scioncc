@@ -96,14 +96,14 @@ setup(  name='scioncc',
             'pyyaml==3.10',
             'pika==0.9.5',              # NEED THIS VERSION. Messaging stack tweaked to this version
             'zope.interface==4.1.1',
-            'psycopg2==2.5.4',          # PostgreSQL driver
+            'psycopg2==2.7',          # PostgreSQL driver
             'gevent==1.0.2',
             'greenlet==0.4.9',
 
             # Pin dependent libraries (better in buildout/versions?)
             'httplib2==0.9.2',
             'pyzmq==15.4.0',            # For IPython manhole
-            'cffi==0.9.2',
+            'cffi==1.4.1',
             'oauthlib==0.7.2',
             'six==1.9.0',
 
