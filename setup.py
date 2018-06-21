@@ -103,7 +103,7 @@ setup(  name='scioncc',
             # Pin dependent libraries (better in buildout/versions?)
             'httplib2==0.9.2',
             'pyzmq==15.4.0',            # For IPython manhole
-            'cffi==1.4.1',
+            'cffi>=1.4.1',
             'oauthlib==0.7.2',
             'six==1.9.0',
 
